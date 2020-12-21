@@ -2,14 +2,14 @@
 ##### URL:  [Link](http://hekker.noobarmy.org/ "Mr. Hekker")
 
 * This was the form present in homepage.
-![[Pasted image 20201221133843.png]]
+![[img1.png]]
 * The POST request being sent:
-![[Pasted image 20201221134134.png]]
+![[img2.png]]
 * Response:
-![[Pasted image 20201221134216.png]]
+![[img3.png]]
 
 + ##### We can try XML external entity (XXE) injection.
-![[Pasted image 20201221134742.png]]
+![[img4.png]]
 This confirms the _vulnerability_.
 
 + Now we can get the flag at */home/hekker/flag.txt*
